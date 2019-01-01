@@ -2,22 +2,37 @@ h1  {
     color: blue; 
     font-size: 50px; 
     text-align: center; 
+    text-decoration: underline;
     
+    
+}
+
+h2  {
+    color: red; 
+    font-size: 40px; 
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    flex: 1 20px;
+    
+
 }
 
 html    {
     background-color: #f5f5dc;
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     
 }
 
 #AboutMe {
     text-align: left;  
-    width: 1585px; 
+    width: 1569px; 
     height: 300px; 
-   /* display: grid; */
+    display: grid; 
     border: solid;
     border-color: blue;
+    grid-template-areas: 1fr 1fr 1fr;
     
 }
 
@@ -26,6 +41,9 @@ div {
     border-color: grey;
     width: 200px; 
     height: 200px;
+    display: grid;
+    grid-template-areas: 1fr 1fr 1fr;
+
 }
 
 #Other  {  
@@ -34,7 +52,9 @@ div {
     width: 600px;
     height: 100px;
     background-color: green;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
 }
 
 /* <input class = "button" type = "button" value = "This is a button"> */
