@@ -7,17 +7,34 @@ h1  {
 
 html    {
     background-color: #f5f5dc;
+    display: grid;
+    
+}
+
+#AboutMe {
+    text-align: left;  
+    width: 1585px; 
+    height: 300px; 
+   /* display: grid; */
+    border: solid;
+    border-color: blue;
+    
 }
 
 div {
-    text-align: left;
-    
-    width: 1585px; 
-    height: 200px; 
-    display: grid;
-    border: solid;
+    border: dashed;
     border-color: grey;
-    padding: 0px 0px 0px 0px;  
-    
-    
+    width: 200px; 
+    height: 200px;
 }
+
+#Other  {  
+    border: solid;
+    border-color: red;
+    width: 600px;
+    height: 100px;
+    background-color: green;
+
+}
+
+/* <input class = "button" type = "button" value = "This is a button"> */
