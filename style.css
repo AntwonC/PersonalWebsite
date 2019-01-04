@@ -62,9 +62,80 @@ div {
     
 }
 
-.Skills {
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr;
+table,
+
+td  {
+    border: solid; 
+    
 }
 
-/* <input class = "button" type = "button" value = "This is a button"> */
+
+thead, 
+tfoot   {
+    background-color: #333; 
+    
+}
+
+.Skills {
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+
+
+ /*.Skills {
+    display: grid; 
+    grid-template-columns: 100px 100px 100px 100px; 
+    grid-template-rows: 100px;
+   
+    border: solid; 
+    position: relative;
+    width: 100%; 
+    
+}
+
+
+.d1 {
+    
+    vertical-align: bottom;
+    text-align: center;
+    
+} 
+
+/*.d1 {
+    position: absolute; 
+    top : 50px;
+    left: -1px;
+    top: 2px;
+    width: 100%; 
+}
+
+.d1 span    {
+    color: black; 
+    font: bold;
+    letter-spacing: -1px;
+    background: rgb(255, 255, 255); 
+    background: rgba( 255, 255, 255);  
+    padding: 10px;
+    width: 20px;
+} 
+
+.pic    {
+    width: 60%;
+}   
+ */
+
+
+
+
+/* <input class = "button" type = "button" value = "This is a button">
+Knock knock
+
+Who's there?
+
+Hatch!
+<img class = "pic" src = "https://image.freepik.com/free-icon/java_318-32027.jpg" alt = "Java logo"/> 
+Hatch who?
+
+Bless you! */
+
