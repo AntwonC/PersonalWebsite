@@ -1,3 +1,4 @@
+/* This is the name at the top */
 h1  {
     color: blue; 
     font-size: 50px; 
@@ -8,6 +9,7 @@ h1  {
     
 }
 
+/* This is the About Me */
 h2  {
     color: black; 
     font-size: 40px; 
@@ -15,12 +17,13 @@ h2  {
     display: flex;
 
 }
-
+/* To underline the About Me */
 h3  {
     font-size: 40px;
     text-decoration: underline;
 }
 
+/* Background color */ 
 html    {
     background-color: #f5f5dc;
     display: grid;
@@ -28,6 +31,7 @@ html    {
     
 }
 
+/* Information about me. */
 #AboutMe {
     text-align: center;  
     width: 1569px;
@@ -41,6 +45,7 @@ html    {
     
 }
 
+/* The table for Skills */
 div {
    /* border: dashed; */
     border-color: grey;
@@ -50,37 +55,72 @@ div {
     grid-template-areas: 1fr 1fr 1fr;
 
 }
-
+/* This was intended to do something, but trashed it away. Will keep if I refer back in the future. */
 #Other  {  
-    border: solid;
+   
+   /* border: solid;
     border-color: red;
     width: 600px;
     height: 100px;
     background-color: green;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
+    */
 }
-
+/* Gave table border */
 table,
 
 td  {
     border: solid; 
+    
+    font-size: 35px;
     
 }
 
 
 thead, 
 tfoot   {
-    background-color: #333; 
+    text-align: center;
     
 }
 
+/* Centering the table in the middle */
 .Skills {
     margin-left: auto; 
     margin-right: auto; 
+    width: 200px;
+    height: 100px;
+    
 }
 
+#Java   {
+    color: red;
+    
+}
+
+#HTML   {
+    color: green;
+}
+
+#CSS    {
+    color: teal;
+}
+
+/* Made Projects bigger */
+#projects   {
+    font-size: 20px;
+}
+
+/* Contact word, changed size and underlined. */
+#contact    {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+/* Made my email bold for easier visiblility */
+#email  {
+    font-weight: bold;
+}
 
 
  /*.Skills {
